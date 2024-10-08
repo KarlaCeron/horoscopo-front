@@ -11,7 +11,7 @@ function Form({ callback }) {
         event.preventDefault();
         
         try {
-            const response = await fetch('http://localhost:4000/v1/auth/login', { // URL de tu API
+            const response = await fetch('http://horoscopo-back-tan.vercel.appv1/auth/login', { // URL de tu API
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
